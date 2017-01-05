@@ -1,0 +1,20 @@
+You can use any class in the page to work with that page.  Here for example My acccount 
+page consists of several functionality and each functionality has a class.
+
+We can use page object framework for this, because page object framework is a designpattern 
+h ybrid automation framework, which can reduce the code duplication and enhnacing the test
+maintanance. Now most selenium experts are reccomending to design your page with page 
+objects framework. 
+
+The is a clear sepeartion between test code(test steps and assertions) and 
+page specific code(page functionality and locators). When you are building a 
+hybrid automation framework, founadtion should be the page object framework. After 
+that data driven framework and keyword driven framework. 
+Any new test cases must be written in the test case package.
+
+Test using page object framework for my account page:
+
+right click on the package and select TestNG and create TestNG class. Give 
+name for that class. Here any test case should inherit from the test base calss.
+ 
+

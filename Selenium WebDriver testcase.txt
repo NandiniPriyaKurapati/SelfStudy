@@ -1,0 +1,36 @@
+We need to add selenium server to the project in eclipse. and there you 
+can see many Jar files in referenced libraries. a number of packges are there, they 
+represent selenium functionality, selenium APIs, all classes like firefox driver, web driver,
+chrome driver. 
+
+code for firefox browser
+
+WebDriver driver = new FirefoxDriver();
+
+driver .get("http://www.indeed.co.uk");
+
+Thread.sleep(2000);
+
+driver.findElement(By.id("what")).sendKeys("Selenium");
+
+driver.findElement(By.id("where")).clear();
+
+
+driver.findElement(By.id("where")).sendKeys("London");
+
+driver.findElement(By.id("fj")).click();
+There is no need to use clickandwait because we are using the 
+webdriver, once the page gets loaded it is going to give us the control back.
+
+
+System.out.println(driver.getTitle());
+System.out.println(driver.findElement(By.id("searchCount")).getText());
+
+driver.close();
+
+
+IN the exception handling, add throws Interupted exception.
+
+wokrs, architecture, test case and execution.
+
+Web elements are textbox, button, dropdown.

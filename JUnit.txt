@@ -1,0 +1,28 @@
+Import this library
+
+import org.junit.runner.RunWith;
+
+@RunWith(Suite.class)
+@SuiteClasses
+({
+
+IndeedSiteTests.class,
+Allclassname.class
+
+})
+
+public class RegressionSuite{
+
+}
+
+
+It runs the test suite, with all the test cases. At top level it has used the suite name
+Each test case has individual test and also given the execution time. 
+we can see the test results at the top.
+For better seperation, save test suites in a seperate package.
+
+
+Html like box is a part of the web page. It's not a modal dialog. you can click any where 
+on the web page and interact with the web page. But in case of javascript web page, 
+you have to interact with the web page.
+We generally use selenium webdriver to interact with the webelements in it.

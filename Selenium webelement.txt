@@ -1,0 +1,34 @@
+WebElement Location strategies
+Id, name, linkText, partial linkText, Xpath, ClassName, TagName, CssSelector.
+
+
+Handling javascript popup boxes with selenium
+
+Webdriver code
+
+WebDriver driver = new FirefoxDriver();
+driver.manage().window().maximize();
+
+driver.get("url");
+driver.findElement(By.name("")).click();
+
+inorder to handle alert box
+
+Alert alert= driver.switchTO().alert();
+
+
+Thread.sleep(3000);
+System.out.println("Alert text :" + alert.getText());
+alert.accept();  
+
+driver.switchTo().defaultContent();
+
+System.out.printl(" " +  );
+
+
+
+
+
+
+  
+ 

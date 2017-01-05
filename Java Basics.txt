@@ -1,0 +1,80 @@
+1. Testing definition:
+Software testing is the process of validating and verifying the software item to detect the
+difeerences between the given input and the expected output, also to assess the quality and
+features of the product, whether it is acting according to the business and technical 
+requirements that guided the design and development.
+2. Framework definition:
+It is an execution environment for automated tests. It is the overall system in which the 
+tests will be automated. 
+3.Java features:
+i). Object oriented: We can reuse the data many times as needed and we can hide the data 
+using private, public, and protected access modifiers in java, basically we are writing 
+code in an efficient way to represent real world objects(whcih have state and behavior).
+ ii). platform independent: we can run the code in any platforms like Mac, Windows, Linux, 
+Unix.
+iii). Hight performance: gives high performance in terms of running a program, memory 
+management, resource utilisation. 
+iv). Multi-threaded: Multiple threads in the program called entities, we can run them to 
+acheive parallelism(Java runtime machine partitions the stream into multiple substreams 
+and process the substreams in parallel and then combine results) and to get faster results. 
+4. all source code in java is written in the files with the .java extension and 
+java compliler complies it to the .class files which contains byte codes. 
+JVM converts it to the machine language. every OS has JVM. 
+
+COMPILER       ---> JVM                ---> OS
+.CLASS files    jvm converts it 
+byte code	to the machine language.
+
+5. why java is used for selenium automation?
+Selenium automates browsers. As it is a open soruce technology, it doesn't have a lot of
+features like 
+
+Control test execution for different data sets
+set-up/configure test pre-conditions/post-cnditions
+report execution resluts
+Automation framework.
+Test case Management
+creating files/reading from files/ writing into files.
+Logging
+
+we can also use Java, c#, and testing frameworks like JUnit, 
+TestNG. Selenium is a open source medium. Java is widely used and feature rich. selenium 
+server is writeen in java and selenium community is very close to java. Most of the times 
+support for java is released/done first.  
+
+6. Installing java and eclipse
+src files in java is the place where we write all the source code, classes
+JRE system library, which is java system library in which number of jar files are there, 
+they represent java programming language, they provide java functionality. There are a 
+number of packages in each jar. Each package has number of event related classes, 
+together grouped in a events package.
+
+7. Package: A package is a collection of event related classes like file reading, 
+file writing, error thrown, exception thrown classes.
+Class name should always match the file name, within the class there is a main method 
+from where it will start the execution.
+8. DIFFERENCES: Error and Exception are sub classes of Java.lang.Throwable class.
+Error is mainly caused by the environment in which the application is running.
+Ex: OutOfMemoryError and StackOverFlowError- try catch can't handle, unchecked type,
+immpossible to recover from error
+Exceptions are caused by the application itself EX: Checked exceptions, unchecked exceptions,
+classcastexceptions, nullpointer exceptions- try catch can handle, checked and 
+unchecked type, can recover from error.
+ [occur at runtime]
+
+9. System console
+System.out.println("Hello World!");
+
+intellicense shows the useful information regarding the parameters. Debug mode shortcut F11
+
+10. Java is created for object oriented purpose and programming needs. 
+
+11. Method or function is same.
+
+12. Class is a blueprint standard which exhibits properties and methods defined by its class.
+
+A class contains fields and methods to describe the behavior of an object.
+
+Product Iphone = new Product();
+
+Every class is child class of object class.

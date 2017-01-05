@@ -1,0 +1,70 @@
+Selenium webdriver is purely object oreinted. 
+Object oriented programming language is very easy to maintain and saves lot of time.
+Each product in a ecommerce site has, Product id is also known as stock keeping unit
+
+1. Why Selenium in Testing?
+It is a firefox plugin, and provides easy user interface for developing automated tests. 
+it has a recording feature, which records user actions and exports them as a resuable scripts
+in any programming languages to execute later.'
+
+2. selenium web driver replaces Selenium 1.0 and Rc (limitations with popups and dialog
+box) 
+3. Selenium webdriver is a tool for automating web application testing and to verify that
+they work as expected. it aims to provide a freindly API that's easy to explore and 
+understand and to use.
+
+It is  a firefox plugin for automating web application testing and to provide easy user 
+interface.
+  
+
+3. What is Selenium?
+Selenium is a very popular Web application based automation testing tool which you can use on 
+multiple webbrowsers, Multiple operating systems, multiple langauges.
+
+4. What is selenium IDE?
+It is a firefox Adon, allows us to Debug, edit and record and Playback feature the 
+tests. Helps UI easily start with Selenium.
+ 
+
+5. What is selenium WebDriver?
+It is best for full web automation. It is a collection of open source APIs which drives 
+the browser natively, supporrts multi language/multi operating system/multi browser support.
+
+6.what is selenium RC?
+It is the predecessor of WebDriver,  Rc drives browser using javascript. It is officially 
+deprecated. Provides support for multi language/multi browser/multi operating system similar 
+to webdriver.
+
+7.what is selenium Grid?
+It allows distributed and parallel running of selenium automation scripts by using 
+multiple webdriver and selenium nodes. 
+
+Selenium will not work for desktop and windows applications.
+
+Selenium Features:
+Open source and free
+Provides record and playback feature.
+Can run tests on multiple browsers/ multiple operating systems/ supports multiple languages.
+Can use with a number of testing frame
+Distributed and parallel running of tests.
+Customize/enhance source code to suite your requirements
+Add your custom functionality by using user extensions.
+Selenium automation is independent of the language in which you have developed your 
+web application.  
+
+//custom functionality or enhance or customize the source code --> all//
+
+QTP only VBScript.
+using IDE, we can craete test scripts to test web application. It provides easy 
+interface to develop, run, debug the test scripts.
+You can export the recorded tests in multiple languages to use with selenium WebDriver.
+
+
+
+8. Firebug is a firefox addon, inspects web elements, view and edit html code for 
+web elements.
+Getfirebug.com 
+
+Firefox addon extensions format .xpi
+
+

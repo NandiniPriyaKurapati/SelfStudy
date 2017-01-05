@@ -1,0 +1,76 @@
+1. Maven is a tool from apache for building and managing Java projects. We also have ANT, 
+but Maven is more preferable than that.
+Maven works on well defined (POM)Project object model.
+Maven can manage building, reporting, and documentation of a java project.
+
+2. Why we should use Maven?
+Simple project setup.
+Well defined project's directory structure.
+Integrating testing in the build cycle.
+Makes the build process easy for a project by shielding from the technical 
+details(clean, compile, install, build).
+.POM
+.Maven's plugins
+Manages depedencies very well and reuses them for all projects from a central repository.
+Provides useful information like test reports, project reports, dependency list, log 
+document created directly form the source control.
+we can migrate to the new versions
+we can integrate with new tools and has a huge plugin library.
+
+3. To install Maven, we need Java Home environemnt to set prior to installation.
+cmd application, :
+TO check configuartion type this in cmd:  mvn -v ---> version 
+					  mvn -h ---> options
+
+We can build the maven project from the command line or from the eclise using maven plugin.
+m2e General purpose tools---> maven for eclipse
+archetype is a template.
+
+All hybrid automation framework code in Main Java folder
+framework resources in resources folder
+all testNg test cases and test classes.
+Maven is going to use Xml page object model.
+
+Inorder to write manven project add dependencies like selenium and TestsNG and also 
+Maven plugins to eclipse.
+
+We can download the dependencies from the Maven central repository. 
+We can add the dependencies to the POM.xml from central repository.
+
+Regression suite- TestNG test suite.
+
+To execute the test cases uisng Maven, We need to konw the 
+Maven Build Life Cycle- Clean(pre-clean, clean,  post clean), 
+Default(validate,Complie,Test,Packag,Verify,Install,Deploy), Site.
+mvn clean test.
+mvn clean install.
+mvn clean install site
+mvn surefire test(core plugin comes along with the repository)- use during 
+the tets phase, to execute the unit test cases. - executes all the files starts
+with Test and ends with Java and also ends with TestCase.Java
+When Maven build our project it creats creates all the files under the target 
+folder. Go inside the test classes, there will be executed test cases.
+
+We can execute the individual test cases using Maven surefire plugin
+
+index.html in Maven surefire 
+page shows the testNG execution results
+
+Add configuartion for all the plugins.
+
+Ctrl+space to add the configuartion
+
+We can execute multiple testNG test suites using Maven
+
+mvn clean test (site- DgenerateReports=false) for CSS
+mvn clean test (surefire-report:report) for HTML
+
+
+
+
+
+
+
+
+
+

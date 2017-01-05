@@ -1,0 +1,64 @@
+1. PageObjects framework is the main core object for automation.
+It is a design pattern for enhacing the test automation and test duplication(resuing the 
+code)
+Inorder to work or interact with the web page, we create a object oriented class for that 
+web page. 
+Whenever they need to intearct or work with that web page, the test calls the page class 
+by creating a page object.
+
+Page class for a login page
+
+public class LoginPage
+{
+loginAs(username,password);
+getTitle();
+
+}
+
+To represent a web page or to work with that web page, each page is considered as a 
+object and represented by a class. Each functionality in that page is represented by a 
+method. When you want to work with that, test calls the page class by creating a page 
+object for that.
+ 
+2. Why we should use Page OBJECTS framework?
+
+There is ? single page class for that page rather than scattered code.
+Clear seperation between test steps and assertions. page functionality, locators. 
+If there are UI changes, then code in the page class needs to be change, no need of any 
+change in tests.
+
+
+
+3. Automation Framework:
+It is a set of best practices/guidelines that go well with the automation. 
+Easy to use
+Easy to understand
+Easy to maintain.
+Make sure faremwork is easy to write tests.
+
+4 layers of automation framework:
+Test Scripts - test code with test steps and assertions.
+Automation FrameWork - It is a hybrid automation framework with all the frameworks like
+Data Driven,  page objects framework etc.,
+Selenium- this layer represents the automation tool for the automation.
+(Ex: in this case it is selenium)
+Browser/Web Application: It is the actual application 
+
+
+Test scripts depend upon automation framework, automation framework uses selenium, 
+then selenium drives the browser or web application.
+
+PAgeObject framework Guidelines:
+There should be respective public methods for the functionality or services in the 
+web page in the page object.
+Try not to expose the internal details of the page(Web elements, WebDriver). 
+page Objects should not do any verifications, they should be done in the test cases.
+pageobjects should return other page objects(Ex: login page should return welcome page).
+
+We write framework only once but we multiplt tests the framework.
+
+
+In this vedio, there are two main concepts Page Objects and Automation Framework.
+
+Selenium
+Browser/WebApplication

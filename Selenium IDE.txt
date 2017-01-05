@@ -1,0 +1,75 @@
+Selenium identiifes their web elements by looking at their html attributes
+
+Build test case and save the test case in a folder.
+
+Anchor Tag is a hyperlink whcih is used to link form one page to anothe rpage.
+You can export any test case using file option- Export Test Case to any language 
+of your choice ir available options.
+After exporting the test case you can see the file in a folder and open it in a 
+notepad or wrod pad then you can see the code in desired langauge and also the webdriver 
+language.
+You can see the recent test cases in a recent test cases in File menu
+You can see the properties of a test case in File menu and change the file name or 
+file title.
+If you want to insert annew command, you can insert or delete or copy or insert new comment.
+
+In actions Menu you can record, setting breakpoint(Seetiing breakpoint gives the control 
+over program execution), set start point.
+In options Menu there is options bar in which there will be a encoding type, 
+default timed out value(whenever we use click and wait then it will use the time specified 
+in the default timed out value.)
+
+Selenium core extensions are user extensions.js, They are mainly the custom commands or 
+custom functions.
+Selenium IDE extensions (Selenium IDE plugins)are the adding the more fucntionality.
+Assert title work as extra for verification.
+options--> history and reset Selenium IDE
+You can change or rename everything in the Options menu
+In selenium Blog you can check the documentation and issues rageding that in HELP menu.
+You can pause or resume or run step by step. Apply roleup  rules whcih allows repetitive 
+sequence of selenium commands to be grouped in a sinlge action. Mostly used in Advanced 
+options or use selenium web driver.
+
+Select is not working in Selenium IDE
+Log at the bottom of the page displays the logs (Execution)
+Info will show info and if you have errors, then select errors 
+Reference will give information that how it works.
+Selenium columns and values are case sensitive.
+you ARE limited with two arguments
+
+
+Selenium IDE test case contains command-action, target-web element, value-input data or 
+value for the step.
+Location strategies- by identifier(Default), id, name, 
+Xpath(//input[@id='value' and @placeholder='password']), Xpath Attributes, link, CSS, DOM.
+Selenium columns are case sensitve.
+
+
+//htmltag[@attribute1='value1'and@attribute2='value2']
+//input[@id='passwd'and@placeholder='password']
+//input[contains(@id,'user')]
+//input[starts-with(@name,'pass')] 
+
+Xpath-Relative is used to table cells
+//htmltag[@attribute='value']/htmltag/.../htmltag
+When you don't have any ids or values to be given in the command or target or value then 
+go for Xpath-Relative for table rows and columns. Show selenium all commands and use 
+assertText and click on that to get the value.
+
+Xpath-position and Xpath-Absolute is not recomended to use.
+
+Locate the web elements by using the DOM, CSS.
+
+Best reccomendations:
+id, name, link if these three are not available then go for Xpath Attributes, 
+Xpath Relative for tables.
+
+Using selenium IDE- using location strategies identify the web elements.
+
+
+Ways to build the test case:
+Recording 
+Context Menu
+Manual
+
+

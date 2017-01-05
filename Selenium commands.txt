@@ -1,0 +1,23 @@
+To cover Selenium IDE real world use cases like:
+Record/Playback, Export into different programming language.
+Build/Debug the test cases
+Quickly build test cases when you dn't have time.
+sets base for selenium webdriver in terms of learning.
+
+
+
+Selenium commands:
+type,check,select, sendKeys, uncheck, submit---> input commands
+AndWait---> handles any pageload after input action 
+store commands---> storeText, storeAttribute,storeElementPresent
+waitFor commands--->waitForText, waitForElementPresent, waitForAttribute.
+verify/assert commands
+assert commands: it will fail the test and abort the current test case execution.
+use assert commands, to make sure your test is running in right direction
+verify commands: it will fail the test and continues current test case execution.
+use verify commands to actually compare test results or output results.
+echo commands---> print in the log files
+
+use assert and followed by verify commands to for efficient execution.
+
+Reference tab provides information about the commands

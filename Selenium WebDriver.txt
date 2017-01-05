@@ -1,0 +1,31 @@
+Selenium webdriver is released as a part of selenium 2.0.It is designed in an opitmal 
+way for modern web applications.
+
+It is useful for full web automation. Selenium webdriver is the main component in 
+selenium automation. It drives the browser natively using native commands(internal commands) 
+like an end user which is very robust. Webdriver is a more object oriented when compared to the 
+Selenium 1.0 and Selenium RC. You can run with the Web elemnts, windows, dialogs. It still 
+supports all the old seleniumm RC code. It supports Multiple operating systems, 
+multiple browsers (and versions in it), multiple languages.
+
+Overcomes selenium 1.0 and selenium RC limitations like popps, dialog boxes, file upload, 
+download, multiple browsers.
+
+Selenium Rc uses Javascript to drive the browser, which is not acceptable in the 
+same way by all the browsers. 
+
+Multiple operating systems: Windows, Linux, Unix, MAc, Solaris.
+Multiple browsers: Firefox, chrome, opera, IE, safari.
+
+Technically speaking Selenium WebDriver is an interface and it defines the methods that 
+you want to use to drive a browser(Interface is a object oreinted programming language 
+concept). When you want close a browser or get url or get some other things, webdriver 
+provides the methods for that to acheive the actions. When a class implements an interface 
+it implements the methods defined in that interface.
+
+Now firefox is implementing the webdriver interface with findElement(), getTitle(), close(),
+getCurrentUrl() methods. It is same methods for all the browsers, but code changes according 
+to the.
+
+WebDriver interface- use diffferent implementations for different browsers.
+

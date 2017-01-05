@@ -1,0 +1,49 @@
+Applications:
+Web Applications
+Mobile Applications
+Enterprise Applications
+Desktop Applications
+
+Roles in this job:
+Designers - creating the page - Designing the page where the image should be and how the 
+navigation should flow and they concentrates on page design.
+
+Developers-functionality writers- developers develop the functionality(accepting the 
+input, processing the request and responding back with the response). 
+
+Testers- Application need to go  through different phases and test across all the 
+phases (SDLC)
+
+SDLC
+ROles, 
+Applications,
+
+For small applications and requirements are very clear waterfall model is used, 
+for remaining use agile. We also have V model. When changes are there to be done then don't 
+use waterfall or v model. If there are little changes to be done use v model. otherwise 
+agile is the best methodology.
+
+
+High level design: It is the overall system design, archtecture and database.
+ 
+Low level design: it is the system level testing
+
+Unit testing, integration testing, system tetsing, acceptance testing.
+
+Banking application: 
+1. Create account
+2. Deposit amount
+3. Withdraw amount
+4. Account transfer
+5. Close account
+
+Imcremental testing is a combination of one or more waterfall models.
+Spiral model is preferable  for complex projects.
+
+Agile model: 
+Scrum meeting: short meeting, daily, daily works and priority modules.
+
+MAnual testcases: TEstcaseID, Test sceanrio, TEststeps, TEstdata, expected results.
+
+
+
